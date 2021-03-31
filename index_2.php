@@ -1,5 +1,6 @@
 <?php
 require_once('urlclass.php');
+//Our php variable.
 $URLShortener = new URLShortener;
 ?>
 <!DOCTYPE html>
@@ -15,6 +16,7 @@ $URLShortener = new URLShortener;
     
 <body>
     <?php
+    //we call the mainForm function, and used echo cuz we used "return" in this function.
         echo $URLShortener -> mainForm()
     ?>
 </body>

@@ -11,6 +11,7 @@ $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 ?>
 
 <?php
+//This is used to connect with our data base. (We used Phpmyadmin in this project)
 date_default_timezone_set('Europe/Paris');
 class Connect extends PDO
 {
