@@ -3,3 +3,9 @@
 # redirects
 RewriteEngine on
 RewriteRule ^([^/\.]+)/?$ /url.php?url=$1 [R=301,L]
+
+#Use to communicate with our server.
+#The first line is use to stop the access to the requested directory.
+
+#https://serverfault.com/questions/418595/how-do-i-redirect-php-pages-to-html-pages
+#https://gist.github.com/ScottPhillips/1721489
